@@ -1,0 +1,1 @@
+Código para fazer uma modal no JavaScript.
