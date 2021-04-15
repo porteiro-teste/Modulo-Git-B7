@@ -14,7 +14,10 @@ export default function modal() {
             fechaModal(e);
         }
     }
-
+    function bugModal(){
+        const textoBug = 'Há um bug na modal, volte mais tarde :(';
+        console.log(textoBug);
+    }
     contanierModal.addEventListener('click', verificaClick);
     btnAtivar.addEventListener('click', ativaModal);
     fechar.addEventListener('click', fechaModal);
