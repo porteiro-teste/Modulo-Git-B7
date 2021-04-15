@@ -15,7 +15,7 @@ export default function modal() {
         }
     }
     function bugModal(){
-        const textoBug = 'Há um bug na modal, volte mais tarde :(';
+        const textoBug = 'Há um bug na modal 2, volte mais tarde :(';
         console.log(textoBug);
     }
     contanierModal.addEventListener('click', verificaClick);
